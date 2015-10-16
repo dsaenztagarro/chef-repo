@@ -7,5 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe 'rvm::system'
+node.default['rvm']['default_ruby'] = 'ruby-2.2.3'
+node.default['rvm']['user_default_ruby'] = 'ruby-2.2.3'
 
+include_recipe 'rvm::system'
