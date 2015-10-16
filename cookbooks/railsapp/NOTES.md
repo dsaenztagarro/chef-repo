@@ -23,6 +23,10 @@ Create kitchens to watch work in progress
 ```
 kitchen list
 kitchen create default-ubuntu-1404
+kitchen converge default-ubuntu-1404
+
+# manually verify
+kitchen login default-ubuntu-1204
 ```
 
 # Tests
