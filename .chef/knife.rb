@@ -9,3 +9,6 @@ validation_client_name   "digitalocean-validator"
 validation_key           "#{current_dir}/digitalocean-validator.pem"
 chef_server_url          "https://mychefserver.es/organizations/digitalocean"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+cookbook_copyright 'David Saenz Tagarro'
+cookbook_email     'david.saenz.tagarro@gmail.com'
