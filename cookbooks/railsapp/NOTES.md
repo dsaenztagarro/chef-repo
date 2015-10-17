@@ -36,3 +36,8 @@ Run tests with:
 ```
 kitchen test
 ```
+
+# Documentation
+
+[serverspec](http://serverspec.org/)
+[tips](http://jtimberman.housepub.org/blog/categories/quicktips/)
