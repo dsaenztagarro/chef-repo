@@ -3,6 +3,7 @@
 ###
 # Ignore Chef key files and secrets
 ###
+.chef/syntaxcache
 .chef/*.pem
 .chef/trusted_certs
 .chef/encrypted_data_bag_secret
