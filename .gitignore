@@ -8,3 +8,4 @@
 .chef/trusted_certs
 .chef/encrypted_data_bag_secret
 **/.kitchen
+cookbooks/**
