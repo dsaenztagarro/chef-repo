@@ -1,0 +1,40 @@
+{
+  "name": "myfamilyweb",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "web_server": {
+      "sites": {
+        "server_name": "myfamilyweb.local",
+        "server_alias": [
+          "www.myfamilyweb.local"
+        ],
+        "document_root": "/var/www/myfamilyweb/current/public",
+        "friendly_error_pages": true
+      }
+    },
+    "rails_apps": [
+       "deploy_dir": "/var/www/myfamilyweb"
+       "rails_env": "production"
+       "database": {
+         "adapter": "postgresql",
+         "hostname": "localhost",
+         "name": "myfamilyweb",
+         "password": "myfamilyweb",
+         "username": "myfamilyweb123"
+       },
+       "secrets": {
+         "secret_key_base": "abcdefghijklmnopqrstuvwxyz0123456789"
+       }
+    ]
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+  ],
+  "env_run_lists": {
+
+  }
+}

@@ -9,3 +9,5 @@
 .chef/encrypted_data_bag_secret
 **/.kitchen
 cookbooks/**
+
+roles/*.json

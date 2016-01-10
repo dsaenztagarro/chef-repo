@@ -1,0 +1,21 @@
+{
+  "name": "railsapp",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "rubystack": {
+      "ruby_version": "ruby-2.3.0"
+    }
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[rubystack::default]",
+    "recipe[rubystack::rails_deploy]"
+  ],
+  "env_run_lists": {
+
+  }
+}

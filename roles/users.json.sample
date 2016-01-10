@@ -1,0 +1,24 @@
+{
+  "name": "users",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "users": {
+      "deployer": {
+        "username": "deployer",
+        "password": "abcdefghijklmnopqrstuvwxyz0123456789",
+        "home": "/home/deployer"
+      }
+    }
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+
+  ],
+  "env_run_lists": {
+
+  }
+}
