@@ -1,0 +1,6 @@
+{
+  "id": "deployer",
+  "home": "/home/deployer",
+  "password": "abcdefghijklmnopqrstuvwxyz0123456789",
+  "shell": "/bin/bash"
+}
