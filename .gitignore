@@ -1,5 +1,9 @@
 .rake_test_cache
 
+# `knife.rb` should be a symbolic link of `knife_chef_server.rb` or
+# `knife_chef_solor.rb`.
+.chef/knife.rb
+
 ###
 # Ignore Chef key files and secrets
 ###
@@ -12,3 +16,6 @@
 cookbooks/**
 
 roles/*.json
+
+.chef/solo.pem
+.chef/solo.pem.pub

@@ -26,3 +26,9 @@ Next Steps
 ==========
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+
+Setup
+=====
+
+- Create symbolic link for `.chef/knife.rb`
+- `solo.pem` can be generated with `ssh-keygen -f .chef/solo.pem`
