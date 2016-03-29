@@ -15,7 +15,8 @@
 **/.kitchen
 cookbooks/**
 
-roles/*.json
+data_bags/users/*.json
 
 .chef/solo.pem
 .chef/solo.pem.pub
+
